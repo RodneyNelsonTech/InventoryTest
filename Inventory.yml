@@ -1,9 +1,9 @@
----
-AnsibleTest:
-   hosts:
-      AnsibleClient.advancemags.com
-      AnsibleClient1.advancemags.com
-      AnsibleClient2.advancemags.com
-      AnsibleClient3.advancemags.com
-      AnsibleClient4.advancemags.com
-      10.36.160.183
+[testansible]
+ansibleclient.advancemags.com
+ansibleclient1.advancemags.com
+ansibleclient2.advancemags.com
+ansibleclient3.advancemags.com
+ansibleclient4.advancemags.com
+
+[testip]
+10.96.33.16
