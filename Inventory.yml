@@ -1,7 +1,8 @@
 ---
 AnsibleTest:
-	AnsibleClient.advancemags.com
-	AnsibleClient1.advancemags.com
-	AnsibleClient2.advancemags.com
-	AnsibleClient3.advancemags.com
-	AnsibleClient4.advancemags.com
+   hosts:
+      AnsibleClient.advancemags.com
+      AnsibleClient1.advancemags.com
+      AnsibleClient2.advancemags.com
+      AnsibleClient3.advancemags.com
+      AnsibleClient4.advancemags.com
