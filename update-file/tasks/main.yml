@@ -1,0 +1,6 @@
+---
+
+- name: add line to exisiting file.
+  win_lineinfile:
+    path: C:\Windows\Temp\Hello-World.txt
+    line: This is the additonal line
