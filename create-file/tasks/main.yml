@@ -1,0 +1,7 @@
+---
+- name: Create file if it doesn't exist with a specific encoding
+  win_lineinfile:
+    path: C:\Windows\Temp\Hello-World.txt
+    create: yes
+    encoding: utf-16
+    line: This is not a test
